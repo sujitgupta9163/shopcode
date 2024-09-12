@@ -12,7 +12,7 @@ import Admine from './components/Admin';
 import Home from './components/Home';
 import AllProducts from './components/AllProducts';
 import Category from './components/Category';
-import ContactUs from './components/ContactUs';
+// import ContactUs from './components/ContactUs';
 
 
 
@@ -26,7 +26,7 @@ const App = ()=>{
     <Route path='/' element = {<Home/>}/>
     <Route path='/product' element = {<AllProducts/>}/>
     <Route path='category' element ={<Category/>}/>
-    <Route path='/contact-us' element ={<ContactUs/>}/>
+    {/* <Route path='/contact-us' element ={<ContactUs/>}/> */}
     
 
     <Route path='/admin'>

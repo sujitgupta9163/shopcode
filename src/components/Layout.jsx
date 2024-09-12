@@ -29,6 +29,11 @@ const Layout = ({children})=>{
       href : "/contact-us"
     },
 
+    {
+      label : "Admin",
+      href : "/admin/products"
+    }
+
 
   ]
 
